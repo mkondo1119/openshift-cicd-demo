@@ -3,6 +3,8 @@ kind: ArgoCD
 metadata:
   name: argocd
 spec:
+
+
   resourceExclusions: |
     - apiGroups:
       - tekton.dev
